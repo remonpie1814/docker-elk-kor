@@ -1,0 +1,27 @@
+# - pipeline.id: donga_senti
+#   pipeline.workers: 1
+#   path.config: "/usr/share/logstash/pipeline/donga_senti.conf"
+# - pipeline.id: joonang_senti
+#   pipeline.workers: 1
+#   path.config: "/usr/share/logstash/pipeline/joongang_senti.conf"
+# - pipeline.id: chosun_senti2
+#   pipeline.workers: 1
+#   path.config: "/usr/share/logstash/pipeline/chosun_senti2.conf"
+# - pipeline.id: default
+#   pipeline.workers: 1
+#   path.config: "/usr/share/logstash/pipeline/logstash.conf"
+# - pipeline.id: donga_word
+#   pipeline.workers: 1
+#   path.config: "/usr/share/logstash/pipeline/donga_wordcount.conf"
+# - pipeline.id: joongang_word
+#   pipeline.workers: 1
+#   path.config: "/usr/share/logstash/pipeline/joongang_wordcount.conf"
+# - pipeline.id: chosun_word
+#   pipeline.workers: 1
+#   path.config: "/usr/share/logstash/pipeline/chosun_wordcount.conf"
+# - pipeline.id: whole_senti_df
+#   pipeline.workers: 1
+#   path.config: "/usr/share/logstash/pipeline/whole_senti_df.conf"
+- pipeline.id: sample_senti_df
+  pipeline.workers: 1
+  path.config: "/usr/share/logstash/pipeline/sample_senti_df.conf"
